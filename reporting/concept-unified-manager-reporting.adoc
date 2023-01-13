@@ -1,0 +1,18 @@
+---
+permalink: reporting/concept-unified-manager-reporting.html 
+sidebar: sidebar 
+keywords:  
+summary: 支援使用者可檢視、自訂、下載及排程適用於您的非集中儲存系統的報告ONTAP OnCommand Active IQ Unified Manager 。這些報告可提供有關儲存系統容量、健全狀況、效能和保護關係的詳細資料。 
+---
+= Unified Manager報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支援使用者可檢視、自訂、下載及排程適用於您的各種儲存系統的報告（前身為《支援統一化管理程式》）Active IQ Unified Manager OnCommand ONTAP 。這些報告可提供有關儲存系統容量、健全狀況、效能和保護關係的詳細資料。
+
+全新的Unified Manager報告與排程功能已在Active IQ Unified Manager 更新版本9.5中取代先前淘汰的報告引擎。
+
+報告功能可讓您對網路進行不同的檢視、針對容量、健全狀況、效能和保護資料提供可據以行動的情報。您可以顯示及隱藏欄、重新排列欄位、篩選資料、排序資料及搜尋結果、來自訂檢視。您可以儲存自訂檢視以供重複使用、將其下載為報告、並將其排程為週期性報告以透過電子郵件發佈。

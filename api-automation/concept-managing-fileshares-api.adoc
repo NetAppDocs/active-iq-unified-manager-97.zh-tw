@@ -1,0 +1,107 @@
+---
+permalink: api-automation/concept-managing-fileshares-api.html 
+sidebar: sidebar 
+keywords:  
+summary: 您可以使用此處列出的API來檢視、新增及刪除CIFS共用和NFS檔案共用。使用這些API、您也可以指派及修改檔案共用的效能服務層級和儲存效率原則。 
+---
+= 管理檔案共用
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用此處列出的API來檢視、新增及刪除CIFS共用和NFS檔案共用。使用這些API、您也可以指派及修改檔案共用的效能服務層級和儲存效率原則。
+
+在指派儲存設備之前、必須先建立虛擬機器並以支援的傳輸協定進行資源配置。同樣地、若要將儲存效率原則指派給檔案共用、則必須先建立儲存效率原則、然後再建立檔案共用。
+
+
+
+== 檢視檔案共用
+
+您可以使用下列方法來檢視Unified Manager環境中所有可用的儲存工作負載。在ONTAP 將一個叢集新增為Active IQ Unified Manager 資料來源的時候、這些叢集的儲存工作負載會自動新增至您的Unified Manager執行個體。此API會自動擷取所有檔案共用、並手動新增至Unified Manager執行個體。您可以使用檔案共用金鑰來執行此API、以檢視特定檔案共用區的詳細資料。
+
+[cols="1a,1a,1a"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+`/storage-provider/file-shares`
+
+`+/storage-provider/file-shares/{key}+`
+
+|===
+
+
+== 新增檔案共用
+
+您可以使用下列方法在SVM中新增CIFS和NFS檔案共用。您必須輸入要建立的檔案共用詳細資料、做為輸入參數。您無法使用此API建立FlexGroups。
+
+[cols="1a,1a,1a"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+貼文
+ a| 
+`/storage-provider/file-shares`
+
+|===
+[NOTE]
+====
+視提供的存取控制清單（ACL）參數或匯出原則參數而定、會建立CIFS共用或NFS檔案共用。如果您未提供ACL參數的值、則不會建立CIFS共用、而且預設會建立NFS共用、以提供所有的存取權。
+
+====
+
+
+== 刪除檔案共用
+
+您可以使用下列方法刪除特定的檔案共用。您必須輸入檔案共用金鑰做為輸入參數、才能刪除特定的檔案共用區。
+
+[cols="1a,1a,1a"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+刪除
+ a| 
+`+/storage-provider/file-shares/{key}+`
+
+|===
+
+
+== 修改檔案共用
+
+您可以使用下列方法來修改檔案共用區並更新其內容。
+
+您必須提供檔案共用金鑰、才能修改特定的檔案共用區。此外、您還需要輸入要更新的屬性及其值。
+
+[NOTE]
+====
+請注意、您只能在單一呼叫此API時更新一個屬性。若要執行多個更新、您需要執行此API的次數不限。
+
+====
+[cols="1a,1a,1a"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+修補程式
+ a| 
+`+/storage-provider/file-shares/{key}+`
+
+|===

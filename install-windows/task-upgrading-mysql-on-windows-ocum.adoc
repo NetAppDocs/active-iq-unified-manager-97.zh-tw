@@ -1,0 +1,50 @@
+---
+permalink: install-windows/task-upgrading-mysql-on-windows-ocum.html 
+sidebar: sidebar 
+keywords: Active IQ Unified Manager 
+summary: 在安裝Unified Manager的Windows伺服器上、您可以將MySQL升級至更高版本、以取得安全性弱點的修正程式。對於任何次要升級、MySQL的基礎版本必須為8.0.17或更新版本。如果您系統上安裝的MySQL版本早於8.0.17、Unified Manager 9.7升級程序會自動將MySQL升級至8.0.17。您不得執行MySQL從舊版升級至8.0.17的獨立升級。 
+---
+= 升級MySQL
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在安裝Unified Manager的Windows伺服器上、您可以將MySQL升級至更高版本、以取得安全性弱點的修正程式。對於任何次要升級、MySQL的基礎版本必須為8.0.17或更新版本。如果您系統上安裝的MySQL版本早於8.0.17、Unified Manager 9.7升級程序會自動將MySQL升級至8.0.17。您不得執行MySQL從舊版升級至8.0.17的獨立升級。
+
+
+
+== 開始之前
+
+[NOTE]
+====
+如果您系統上安裝的MySQL版本為5.7、則您不得嘗試直接將MySQL升級至8.0.17版。這會導致應用程式資料遺失。
+
+====
+* 您必須擁有安裝Unified Manager的系統的Windows管理員權限。
+* 您必須擁有MySQL root使用者的密碼。
+
+
+
+
+== 步驟
+
+. 以管理使用者身分登入Unified Manager主機。
+. 將適當版本的MySQL下載到目標系統。
+. 使用Windows服務主控台停止下列Unified Manager服務：
++
+** NetApp Active IQ 收購服務（Ocia-au）
+** NetApp Active IQ 產品資料管理伺服器服務（Oncommandsvc）
+** 祕耳SQL8.
+
+
+. 按一下 `.msi` 套件以啟動MySQL升級、並依照畫面上的指示完成升級。
+. 使用Windows服務主控台啟動Unified Manager服務：
++
+** 祕耳SQL8.
+** NetApp Active IQ 產品資料管理伺服器服務（Oncommandsvc）
+** NetApp Active IQ 收購服務（Ocia-au）
+
+
+

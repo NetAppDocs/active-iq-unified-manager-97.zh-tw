@@ -1,0 +1,86 @@
+---
+permalink: install-windows/reference-windows-software-and-installation-requirements.html 
+sidebar: sidebar 
+keywords:  
+summary: 若要在Windows上成功安裝Unified Manager、您必須確保安裝Unified Manager的系統符合軟體需求。 
+---
+= Windows軟體與安裝需求
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+:pp: &#43;&#43;
+
+
+[role="lead"]
+若要在Windows上成功安裝Unified Manager、您必須確保安裝Unified Manager的系統符合軟體需求。
+
+
+
+== 作業系統軟體
+
+Unified Manager只能在64位元英文版Windows作業系統上執行。您可以在下列Windows平台上安裝Unified Manager：
+
+* Microsoft Windows Server 2016標準版與資料中心版
+* Microsoft Windows Server 2019標準版與資料中心版
+
+
+請注意、Windows Server 2012不像舊版一樣受到支援。請參閱互通性對照表、以取得所支援Windows版本的完整且最新清單。
+
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+
+伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。
+
+Unified Manager部署在Wildfly Web伺服器上。WildFly17隨附於Unified Manager、並已進行設定。
+
+Unified Manager需要下列協力廠商套件、但未隨附於其中。如果未安裝這些協力廠商套件、Unified Manager會在安裝過程中安裝這些套件。
+
+* Microsoft Visual C&#43；&#43；2015可轉散發套件14.0.24212版
+* Microsoft Visual C&#43;&#43;適用於Visual Studio 2013的可轉散發套件12.0.40660版
+* MySQL Community Edition 8.0.17版或更新版本（8.0系列）
+* Python 3.6.x
+* OpenJDK 11.0.5版
+* p7zip版本18.05或更新版本
+
+
+[NOTE]
+====
+從Unified Manager 9.5開始、Unified Manager安裝套件中就會提供OpenJDK、並會自動安裝。不支援從Unified Manager 9.5開始使用Oracle Java。
+
+====
+如果預先安裝MySQL、您必須確保：
+
+* 使用預設連接埠。
+* 未安裝範例資料庫。
+* 服務名稱為「MoYSQL8」。
+
+
+[NOTE]
+====
+在升級任何協力廠商軟體之前、您必須先關閉正在執行的Unified Manager執行個體。第三方軟體安裝完成後、您可以重新啟動Unified Manager。
+
+====
+
+
+== 安裝需求
+
+* 必須安裝Microsoft .NET 4.5.2或更新版本。
+* 您必須為保留2 GB的磁碟空間 `temp` 解壓縮安裝檔案的目錄。
+* 您必須在Windows磁碟機中保留2 GB的磁碟空間、才能快取Unified Manager MSI檔案。
+* 您要安裝Unified Manager的Microsoft Windows Server必須設定完整網域名稱（FQDN）、才能執行此作業 `ping` 對主機名稱和FQDN的回應成功。
+* 您必須停用Microsoft IIS全球網頁發佈服務、並確保連接埠80和443是免費的。
+* 您必須確定在安裝期間停用「Windows Installer RDS相容性」的遠端桌面工作階段主機設定。
+* udp連接埠514必須為可用、不得用於任何其他服務。
+
+
+[NOTE]
+====
+Unified Manager安裝程式會在Windows Defender中設定下列排除項目：
+
+* Unified Manager資料目錄
+* Unified Manager安裝目錄
+* MySQL資料目錄
+
+
+如果您的伺服器安裝了不同的防毒掃描程式、則必須手動設定這些排除項目。
+
+====

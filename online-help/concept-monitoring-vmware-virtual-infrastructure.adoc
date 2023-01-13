@@ -1,0 +1,47 @@
+---
+permalink: online-help/concept-monitoring-vmware-virtual-infrastructure.html 
+sidebar: sidebar 
+keywords:  
+summary: 利用VMware®可清楚掌握資料存放區上部署的虛擬機器（VMs）、並可監控及疑難排解虛擬環境中的儲存與效能問題Active IQ Unified Manager 。您可以使用此功能來判斷儲存環境中的任何延遲問題、或是vCenter發生回報的效能事件時。 
+---
+= 監控VMware虛擬基礎架構
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支援VMware的支援功能、可清楚掌握資料存放區上部署的虛擬機器（VM）、並可監控及疑難排解虛擬環境中的儲存與效能問題Active IQ Unified Manager 。您可以使用此功能來判斷儲存環境中的任何延遲問題、或是vCenter發生回報的效能事件時。
+
+典型的虛擬基礎架構部署ONTAP 在整個運算、網路和儲存層之間、有許多不同的元件。VM應用程式中的任何效能延遲都可能是因為各個元件在各個層面上所面臨的延遲問題。這項功能對於需要分析虛擬環境中效能問題、並瞭解問題發生在哪個元件的儲存設備和vCenter管理員及IT通才人士而言非常實用。
+
+Unified Manager會在拓撲檢視中呈現虛擬環境的底層子系統、以判斷運算節點、網路或儲存設備是否發生延遲問題。此檢視也會強調導致效能延遲的特定物件、以便採取補救步驟並解決根本問題。
+
+部署在ONTAP 物件上的虛擬基礎架構包括下列物件：
+
+* 資料存放區：資料存放區是連線至VM主機的虛擬儲存物件。資料存放區是ONTAP 可管理的不受支援儲存實體、例如LUN或磁碟區、用作VM檔案的儲存庫、例如記錄檔、指令碼、組態檔和虛擬磁碟。它們透過SAN或IP網路連線連接到環境中的主機。不支援或不顯示對應至vCenter的ONTAP 資料存放區。
+* 主機：執行ESXi的實體或虛擬系統、VMware的虛擬化軟體、以及裝載VM的主機。
+* vCenter：集中化的控制面板、用於管理虛擬環境中的VMware VM、ESXi主機及所有相關元件。如需vCenter的詳細資訊、請參閱VMware文件。
+* 虛擬磁碟：主機上擴充為VMDK的虛擬磁碟。來自虛擬磁碟的資料會儲存在對應的VMDK上。
+* VM：VMware虛擬機器。
+* VMDK：資料存放區上的虛擬機器磁碟、可為虛擬磁碟提供儲存空間。每個虛擬磁碟都有對應的VMDK。
+
+
+這些物件會顯示在VM拓撲檢視中。
+
+* ONTAP VMware虛擬化技術 image:../media/vm-deployment.gif[""]
+
+*使用者工作流程*
+
+下圖顯示使用VM拓撲檢視的典型使用案例：
+
+image::../media/vm-workflow.gif[VM工作流程]
+
+
+
+== 未解決的問題
+
+* Unified Manager不支援不屬於VMware的資料存放區ONTAP 、而且這些資料存放區已對應至vCenter執行個體。也不支援在這些資料存放區上具有虛擬磁碟的任何VM。
+* 只有NAS和SAN磁碟區支援為資料存放區、不支援虛擬磁碟區（vVoL）。
+* 這些檢視不允許您產生報告來分析各種元件的效能
+

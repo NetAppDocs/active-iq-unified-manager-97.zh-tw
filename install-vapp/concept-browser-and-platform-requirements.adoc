@@ -1,0 +1,22 @@
+---
+permalink: install-vapp/concept-browser-and-platform-requirements.html 
+sidebar: sidebar 
+keywords:  
+summary: 若要存取Unified Manager UI、您必須使用支援的瀏覽器。 
+---
+= 支援的瀏覽器
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要存取Unified Manager UI、您必須使用支援的瀏覽器。
+
+如需支援的瀏覽器版本清單、請參閱互通性對照表。
+
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+
+對於所有瀏覽器、停用快顯封鎖程式有助於確保正確顯示軟體功能。
+
+如果您計畫設定Unified Manager以進行SAML驗證、以便身分識別供應商（IDP）能夠驗證使用者、請同時查看IDP所支援的瀏覽器清單。

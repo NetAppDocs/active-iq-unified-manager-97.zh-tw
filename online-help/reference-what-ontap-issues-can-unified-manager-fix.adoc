@@ -1,0 +1,63 @@
+---
+permalink: online-help/reference-what-ontap-issues-can-unified-manager-fix.html 
+sidebar: sidebar 
+keywords: fix it 
+summary: 下表說明ONTAP Unified Manager可透過按一下「修正」按鈕、直接從Unified Manager使用者介面解決的各項功能問題。 
+---
+= Unified Manager可以修正哪些問題ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下表說明ONTAP Unified Manager可直接從Unified Manager使用者介面按一下「*修正*」按鈕來解決的各種問題。
+
+[cols="1a,1a,1a"]
+|===
+| 活動名稱與說明 | 管理行動 | 「修復」作業 
+
+
+ a| 
+Volume空間已滿
+
+表示磁碟區幾乎空間不足、而且已超出容量已滿臨界值。此臨界值預設為磁碟區大小的90%。
+ a| 
+啟用Volume自動擴充
+ a| 
+Unified Manager會判斷此磁碟區未設定Volume自動擴充、因此啟用此功能後、磁碟區會隨著使用空間量而增加或縮小。
+
+
+
+ a| 
+選項Cf.takeake.on_p恐慌 已設定為關閉
+
+nodesdrof選項"'cf.takee.on_picaide"設為* off*、這可能會在HA設定的系統上造成問題。
+ a| 
+在緊急情況下啟用接管
+ a| 
+Unified Manager會傳送適當的命令給叢集、將此設定變更為*開啟*。
+
+
+
+ a| 
+停用nodesdro解除 選項SnapMirror。enable
+
+舊的nodesdro重 選項「shnapmirror．enable」設為* on *、在升級ONTAP 至fest3或更新版本後、開機時可能會發生問題。
+ a| 
+將SnapMirror.enable選項設為Off
+ a| 
+Unified Manager會傳送適當的命令給叢集、將此設定變更為*關*。
+
+
+
+ a| 
+已啟用遠端登入
+
+表示潛在的安全問題、因為遠端登入不安全、而且以未加密的方式傳輸資料。
+ a| 
+停用遠端登入
+ a| 
+Unified Manager會傳送下列命令給叢集、以停用遠端登入： `security protocol modify -application telnet -enabled false`
+
+|===

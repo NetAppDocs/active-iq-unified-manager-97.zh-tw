@@ -1,0 +1,18 @@
+---
+permalink: api-automation/reference-upgrading-qos-to-aqos.html 
+sidebar: sidebar 
+keywords: Upgrading 
+summary: 支援與Unified Manager管理的儲存工作負載相關的傳統QoS和調適性QoS（AQO）Active IQ Unified Manager 。 
+---
+= 修改工作負載以將QoS升級至AQO
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支援與Unified Manager管理的儲存工作負載相關的傳統QoS和調適性QoS（AQO）Active IQ Unified Manager 。
+
+如果將ONTAP 您的支援叢集從9.1升級至9.3（檔案共用）、將9.4（LUN）、您可以將Unified Manager管理的各個工作負載的傳統QoS升級至AQO。如需詳細資訊、請參閱
+
+https://kb.netapp.com/app/answers/answer_view/a_id/1087379["如何在叢集升級後、將Unified Manager管理的工作負載從傳統QoS升級至AQO"]

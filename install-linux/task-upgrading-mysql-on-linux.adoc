@@ -1,0 +1,58 @@
+---
+permalink: install-linux/task-upgrading-mysql-on-linux.html 
+sidebar: sidebar 
+keywords:  
+summary: 您可以在安裝Unified Manager的連線Linux伺服器上升級至較新版本的MySQL、以取得安全性弱點的修正程式。對於任何次要升級、MySQL的基礎版本必須為8.0.20或更新版本。如果您系統上安裝的MySQL版本早於8.0.20、Unified Manager 9.7升級程序會自動將MySQL升級至8.0.20。您不得執行MySQL從舊版升級至8.0.20的獨立升級。 
+---
+= 升級Linux上的MySQL
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在安裝Unified Manager的連線Linux伺服器上升級至較新版本的MySQL、以取得安全性弱點的修正程式。對於任何次要升級、MySQL的基礎版本必須為8.0.20或更新版本。如果您系統上安裝的MySQL版本早於8.0.20、Unified Manager 9.7升級程序會自動將MySQL升級至8.0.20。您不得執行MySQL從舊版升級至8.0.20的獨立升級。
+
+
+
+== 開始之前
+
+[NOTE]
+====
+MySQL的手動升級僅適用於網際網路連線系統。如果您系統上安裝的MySQL版本為5.7、則您不得嘗試直接將MySQL升級至8.0.20版。這會導致應用程式資料遺失。
+
+====
+您必須擁有安裝Unified Manager的Linux系統的root權限。
+
+
+
+== 關於這項工作
+
+您只能將MySQL 8.0.20的基礎版本升級至更新版本、以進行次要更新。
+
+
+
+== 步驟
+
+. 以root使用者身分登入Unified Manager主機。
+. 下載最新的MySQL社群伺服器 `.rpm` 目標系統上的套裝組合。
+. 將套件解壓縮到目標系統上的目錄。
+. 您可以獲得多種 `.rpm` 在解包之後、套件會放在目錄中、但Unified Manager只需要下列rpm套件：
++
+** MySQL-community用戶端-8.0.20
+** MySQL-社群- Livs-8.0.20
+** MySQL-community伺服器-8.0.20
+** MySQL-社群-通用-8.0.20
+** MySQL社群-libs-compat -8.0.20
+
+
++
+刪除所有其他項目 `.rpm` 套件：但是、在rpm套裝組合中安裝所有套件並不會造成錯誤。
+
+. 依照下列順序停止Unified Manager服務及相關的MySQL軟體：
+. 使用下列命令叫用MySQL升級： `yum install *.rpm`
++
+`*.rpm` 請參閱 `.rpm` 下載較新版本MySQL的目錄中的套件。
+
+. 依照下列順序啟動Unified Manager：
+

@@ -1,0 +1,123 @@
+---
+settings:
+  name: Active IQ Unified Manager 9.7
+  internal:
+    pdf_enabled: true
+    lipi_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  versions:
+  - name: Unified Manager
+    url: "/active-iq-unified-manager-97"
+    version-number: '9.7'
+  - name: Unified Manager
+    url: "/active-iq-unified-manager-99"
+    version-number: '9.9'
+  - name: Unified Manager
+    url: "/active-iq-unified-manager-98"
+    version-number: '9.8'
+  - name: Unified Manager
+    url: "/oncommand-unified-manager-95"
+    version-number: '9.5'
+  langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr,fr-fr,de-de
+sidebar:
+  entries:
+  - title: 產品資訊9.7文件Active IQ Unified Manager
+    url: "/index.html"
+  - title: 版本資訊
+    url: "/release-notes.html"
+  - title: 開始使用
+    entries:
+    - title: VMware vSphere的快速入門安裝
+      url: "/install-vapp/qsg-vapp.html"
+    - title: Linux快速入門安裝
+      url: "/install-linux/qsg-linux.html"
+    - title: Windows快速入門安裝
+      url: "/install-windows/qsg-windows.html"
+  - section: install-vapp
+  - section: install-linux
+  - section: install-windows
+  - section: config
+  - section: online-help
+  - section: performance-checker
+  - section: health-checker
+  - section: data-protection
+  - section: reporting
+  - section: api-automation
+  - title: 法律聲明
+    url: "/reference-legal-notices.html"
+homepage:
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 版本資訊
+      url: "/release-notes.html"
+    - title: VMware vSphere的快速入門安裝
+      url: "/install-vapp/qsg-vapp.html"
+    - title: Linux快速入門安裝
+      url: "/install-linux/qsg-linux.html"
+    - title: Windows快速入門安裝
+      url: "/install-windows/qsg-windows.html"
+  - title: 安裝Configure Unified Manager
+    links:
+    - title: 在VMware vSphere系統上安裝升級
+      url: "/install-vapp/concept-requirements-for-installing-unified-manager.html"
+    - title: 在Linux系統上安裝升級
+      url: install-linux/concept-requirements-for-installing-unified-manager.html
+    - title: 在Windows系統上安裝升級
+      url: "/install-windows/concept-requirements-for-installing-unified-manager.html"
+    - title: 設定Unified Manager
+      url: "/config/concept-configuring-unified-manager.html"
+  - title: 效能監控
+    links:
+    - title: 效能臨界值
+      url: "/performance-checker/concept-managing-performance-thresholds.html"
+    - title: 叢集效能
+      url: performance-checker/concept-monitoring-cluster-performance-from-the-dashboard.html
+    - title: QoS原則群組
+      url: "/performance-checker/concept-managing-performance-using-qos-policy-group-information.html"
+    - title: 工作負載分析器
+      url: "/performance-checker/concept-troubleshooting-workloads-using-the-workload-analyzer.html"
+    - title: 工作負載效能
+      url: "/performance-checker/concept-collecting-data-and-monitoring-workload-performance.html"
+    - title: 管理效能
+      url: performance-checker/concept-managing-performance-using-perf-capacity-and-available-iops-information.html
+  - title: 儲存與物件健全狀況監控
+    links:
+    - title: 叢集與叢集物件健全狀況
+      url: online-help/concept-managing-and-monitoring-clusters-and-cluster-object-health.html
+    - title: 健全狀況臨界值
+      url: "/health-checker/concept-managing-health-thresholds.html"
+    - title: 傳送AutoSupport 不支援的訊息和套裝組合
+      url: health-checker/task-send-a-support-bundle-to-technical-support.html
+  - title: 資料保護監控
+    links:
+    - title: 設定保護關係
+      url: "/data-protection/task-setting-up-protection-relationships-in-unified-manager.html"
+    - title: 執行容錯移轉和容錯回復
+      url: data-protection/task-performing-a-protection-relationship-failover-and-failback.html
+    - title: 管理保護關係
+      url: data-protection/concept-managing-and-monitoring-protection-relationships.html
+    - title: 產生報告
+      url: "/reporting/concept-unified-manager-reporting.html"
+  - title: 使用REST API
+    links:
+    - title: 開始使用
+      url: "/api-automation/concept-api-url-and-categories.html"
+    - title: 管理儲存物件
+      url: "/api-automation/concept-data-center-apis.html"
+    - title: 存取ONTAP 功能完善的API
+      url: "/api-automation/concept-gateway-apis.html"
+    - title: 一般工作流程
+      url: "/api-automation/concept-workflow-intro.html"
+    - title: 配置儲存設備
+      url: api-automation/concept-provisioning-workflow.html
+  - title: 更多資源
+    links:
+    - title: Unified Manager影片
+      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
+    - title: Unified Manager部落格
+      url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
+    - title: 最新版Active IQ Unified Manager 的支援文件
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager/index.html
