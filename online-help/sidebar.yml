@@ -1431,5 +1431,3 @@ entries:
     url: "/online-help/reference-user-not-found.html"
   - title: 使用其他驗證服務新增LDAP時出現問題
     url: "/online-help/reference-issue-with-adding-ldap-using-other-authentication-services.html"
-- title: 如何傳送有關文件的意見並接收更新通知
-  url: "/online-help/concept-how-to-send-comments-about-documentation-and-receive-update-notifications-netapp-post-preface.html"

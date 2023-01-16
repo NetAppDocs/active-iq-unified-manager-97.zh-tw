@@ -36,7 +36,7 @@ entries:
     - title: 從Volume / Health詳細資料頁面反轉保護關係
       url: "/data-protection/task-reversing-protection-relationships-from-the-health-volume-details-page.html"
     - title: 從Volume / Health詳細資料頁面移除保護關係
-      url: "/data-protection/.html"
+      url: "/data-protection/task-removing-a-protection-relationship-from-the-health-volume-details-page.html"
     - title: 從Volume / Health詳細資料頁面重新同步保護關係
       url: "/data-protection/task-resynchronizing-protection-relationships-from-the-health-volume-details-page.html"
   - title: 解決保護工作故障
