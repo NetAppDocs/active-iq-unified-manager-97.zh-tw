@@ -74,7 +74,7 @@ Unified Manager需要下列協力廠商套件、但未隨附於其中。這些�
 如果系統上未設定Epel儲存庫、您必須手動下載及設定儲存庫。
 
 +
-link:task-manually-configuring-the-epel-repository.adoc["手動設定Epel儲存庫"]
+link:task-manually-configuring-the-epel-repository.html["手動設定Epel儲存庫"]
 
 * 如果未安裝正確版本的MySQL、您必須啟用MySQL儲存庫、才能在系統上成功安裝MySQL軟體。
 +

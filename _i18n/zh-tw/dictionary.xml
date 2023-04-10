@@ -521,13 +521,11 @@
   <block id="031a28ccbd7de3572a1cc7884f4803d3" category="list-text">您必須在兩個叢集或兩個儲存虛擬機器（SVM）之間建立對等關係。</block>
   <block id="fc6ca4cf30ee3b9b38b2abb695f0f9c3" category="list-text">必須與Unified Manager整合：OnCommand Workflow Automation</block>
   <block id="9fe21fedf7305d77031a6284024994ea" category="inline-link-macro">設定OnCommand Workflow Automation 功能</block>
-  <block id="bf736f6bb23af57a8ae0f92aada7af91" category="list-text"><block ref="bf736f6bb23af57a8ae0f92aada7af91" category="inline-link-macro-rx"></block></block>
   <block id="f941d418cae1dc73178c4c055a856d41" category="list-text"><block ref="f941d418cae1dc73178c4c055a856d41" category="inline-xref-macro-rx"></block></block>
   <block id="b6ff9ac71a64cd241295fae2fd7f1502" category="list-text">視您要建立的保護關係類型而定、請執行下列其中一項：</block>
   <block id="5d2b0ffd64f891f66da28990d5d18ec6" category="inline-xref-macro">建立SnapMirror保護關係</block>
   <block id="43db12653a1c210ab3d8642e7e356a21" category="list-text"><block ref="014291d4a9e75190d4192a21908388ce" category="inline-xref-macro-rx"></block>。</block>
   <block id="d0b82b5e5a3a52642c4373b65e59d68b" category="inline-link-macro">建立SnapVault 不完善的保護關係</block>
-  <block id="df3efe3b6bee9aa901d5d86b2898c91b" category="list-text"><block ref="bff1165017eb39b4496a02e24ba82e35" category="inline-link-macro-rx"></block>。</block>
   <block id="020b223b7c962e3291bc388001eb3e1d" category="list-text">如果您要根據所建立的關聯類型、為關聯建立原則、請執行下列其中一項：</block>
   <block id="6ff69f53781f3de3805e6689f585b380" category="inline-xref-macro">建立SnapVault 一套不規則的原則</block>
   <block id="a1dafd7a03b16b5b9f0be7dbdb706fc4" category="list-text"><block ref="f94900083af82ccc62d9fb411c53c1bb" category="inline-xref-macro-rx"></block>。</block>
@@ -2876,7 +2874,6 @@
   <block id="a2992f349299086d8d17ee3b7a471aa7" category="list-text">CPU：總共9572 MHz</block>
   <block id="781c32908473254b5a4d86a06486a7b7" category="list-text">可用磁碟空間：5 GB（精簡配置）、152 GB（完整配置）</block>
   <block id="dc351b2abbd920b35cff990b6582b9d7" category="inline-link-macro">互通性對照表</block>
-  <block id="ea6b5bad3425ffef13e8695824653240" category="paragraph">如需詳細的系統需求、請參閱 <block ref="e6936a3c2c4d99a5cfe11a74b21ad8a5" category="inline-link-macro-rx"></block> 和 <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
   <block id="9a3029780c58dd5c4ae9d7c235aacc2e" category="section-title">安裝Active IQ Unified Manager</block>
   <block id="be4d885e0542a29fcfbb71c1ff5a5cb0" category="section-title">下載安裝程式</block>
   <block id="80cd4cbe1704d7224b26b62877da23b2" category="list-text">下載<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 包含根憑證的檔案：a<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> 檔案、和<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> 檔案：</block>
@@ -3197,7 +3194,6 @@
   <block id="4c8433166e04a5e47b074c550210be33" category="paragraph">此時會顯示錯誤的「事件詳細資料」頁面。</block>
   <block id="e4c131bc85ba085c99a3d24455f899c0" category="list-text">從*事件*詳細資料頁面、您可以執行下列一或多項工作：</block>
   <block id="5123785ba44b9602ac5318d31713465a" category="inline-link-macro">針對完整Volume執行建議的補救行動</block>
-  <block id="164b0e53a836c4e02d3650db7d86c36c" category="list-text">檢閱「原因」欄位中的錯誤訊息、然後按一下「建議的補救行動」下方的建議、以檢閱可能的修正說明。 <block ref="dc648a8bc40534b38d4afbc8e3dedf02" category="inline-link-macro-rx"></block></block>
   <block id="2df5484eb422d262f1c0080f3c33b823" category="inline-xref-macro">Volume詳細資料頁面</block>
   <block id="0db6c498c56aae598046d084e3163dd8" category="list-text">按一下「來源」欄位中的物件名稱（在此情況下為Volume）、即可取得物件的詳細資料。 <block ref="1e5be2009b191f5cbd0585cd1b7faa50" category="inline-xref-macro-rx"></block></block>
   <block id="d2796bc844db718566017d009c9ec3a1" category="inline-xref-macro">新增及檢閱與事件相關的附註</block>
@@ -4540,7 +4536,6 @@
   <block id="e5d07b1223a312f4b924e03868e15c74" category="paragraph">在某些情況下、事件說明會提供觸發事件的原因。</block>
   <block id="935c648586b1d00e91c9aed75c3ec7ad" category="list-text">*元件爭用中*</block>
   <block id="a638acac63340211b46a03f6db1bad1f" category="paragraph">對於動態效能事件、本節會顯示代表叢集邏輯和實體元件的圖示。如果元件發生爭用、其圖示會圈選並反白顯示為紅色。</block>
-  <block id="50db78f7c6f8311cd52dcb3e51a3b89d" category="paragraph">請參閱 <block ref="16e87216931e426be7c40c44d34094b9" category="inline-link-macro-rx"></block> 以取得此處顯示之元件的說明。</block>
   <block id="b9cb664a9969c3b20e0e188d1fb6478d" category="paragraph">其他主題將說明「事件資訊」、「系統診斷」及「建議動作」等區段。</block>
   <block id="a67ddca76adf43ec028318ef944520e3" category="list-text">*附註圖示*</block>
   <block id="a76331d14425953ebfe5bda11894fb40" category="paragraph">可讓您新增或更新事件的相關附註、並檢閱其他使用者留下的所有附註。</block>
@@ -5276,11 +5271,9 @@
   <block id="f32ced6a9ba164c4b3c047fd1d7c882e" category="list-text">日文</block>
   <block id="1e81fc32fea0e9f3a978661e4b5e484d" category="list-text">簡體中文</block>
   <block id="ce144bc93be4300e9c20965d4a541b93" category="list-text">可用磁碟空間：100 GB的磁碟空間用於安裝目錄、50 GB的磁碟空間用於MySQL資料目錄</block>
-  <block id="00ce2fd86cb6880d2be28e95af57765c" category="paragraph">如需詳細的系統需求、請參閱 <block ref="3492ab28a0daefa113aca361669de85d" category="inline-link-macro-rx"></block> 和 <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
   <block id="fe477fb8f5012f10b95318c29b24ba27" category="list-text">下載<block ref="3432d6273cf05f582f2668c16220db86" prefix=" " category="inline-code"></block> 安裝套件：</block>
   <block id="9fa35674a7d450b5af2cb972df71de22" category="list-text">將安裝檔案複製到目標系統上的目錄。</block>
   <block id="abbfbdaf21746bca446ca43c755eb8ef" category="inline-link-macro">Windows軟體與安裝需求</block>
-  <block id="d1ef14de2e7ab8f44d4a931119e1721a" category="paragraph">若要安裝Unified Manager、請確定您已安裝Microsoft .NET 4.5.2或更新版本。在安裝程序中、Unified Manager會視需要安裝其他協力廠商套件。如需相依軟體套件的詳細資訊、請參閱 <block ref="41439f63c5edcef1644c63ce7b857ef3" category="inline-link-macro-rx"></block>。</block>
   <block id="dbc2181fcd30e32fd20a72c97f99d008" category="list-text">在您下載安裝檔案的目錄中、以系統管理員身分按一下滑鼠右鍵並執行Unified Manager執行檔（.exe）。</block>
   <block id="55aa1733d6abe99d7ba4f41ab73f3a34" category="list-text">出現提示時、輸入使用者名稱和密碼以建立Unified Manager維護使用者。</block>
   <block id="cf84f1efc2b94e2be0cfb3168fbb6f79" category="list-text">在Database Connection（資料庫連線）精靈中、輸入MySQL根密碼。</block>
@@ -6045,7 +6038,6 @@
   <block id="5ea9949c5a1488a045fd377101c74d86" category="list-text">*效能圖表區域*</block>
   <block id="ea35f14d5f4e22cfd8d3d3ca79d3ebf1" category="paragraph">根據您選取的時間範圍、顯示延遲、處理量（IOPS和MB/s）及使用率（節點和Aggregate）的圖表。您可以按一下「檢視效能詳細資料」連結、顯示工作負載的「效能總管」頁面、以便在您想要執行進一步分析時使用。</block>
   <block id="8159cc62f0bcddc4a9a50531f80d5ecc" category="list-text">*延遲*顯示工作負載的延遲。此圖表有三種檢視、可讓您查看總延遲、讀取、寫入及其他程序所造成的延遲、以及依叢集元件所劃分的延遲。</block>
-  <block id="bb7edce326fbee68509f1f4b689c7058" category="paragraph">請參閱 <block ref="16e87216931e426be7c40c44d34094b9" category="inline-link-macro-rx"></block> 以取得此處顯示之叢集元件的說明。</block>
   <block id="b7e13471b3dd524247dcddd753f81d04" category="list-text">*處理量*顯示工作負載的IOPS和MB/s處理量。此圖表有兩種檢視、可讓您查看總處理量、以及依讀取、寫入和其他程序劃分的處理量。</block>
   <block id="4e5ed85dca388a3a31749e59f754fc1c" category="paragraph">此圖表也會顯示服務品質（QoS）最大和最小處理量臨界值設定（若已設定）、以便您查看系統可能刻意限制處理量的位置。</block>
   <block id="029ce6d34719fa88e1d0d9ec2d5f40ab" category="list-text">*使用率*會顯示工作負載執行之集合體和節點的使用率。您可以從這裡查看您的Aggregate或節點是否過度使用、進而造成高延遲。分析FlexGroup 完這個問題時、使用率圖表上會列出多個節點和多個集合體。</block>
@@ -7440,9 +7432,6 @@
   <block id="41e6157e293d48add644e8ba996fcc97" category="summary">支援與Unified Manager管理的儲存工作負載相關的傳統QoS和調適性QoS（AQO）Active IQ Unified Manager 。</block>
   <block id="431899ee248aac879e50f47978624616" category="doc">修改工作負載以將QoS升級至AQO</block>
   <block id="62d7bb48aa685e4507c1ba5c67d1336a" category="paragraph">支援與Unified Manager管理的儲存工作負載相關的傳統QoS和調適性QoS（AQO）Active IQ Unified Manager 。</block>
-  <block id="4be70c60e9789467261d3852e6b0a8ed" category="paragraph">如果將ONTAP 您的支援叢集從9.1升級至9.3（檔案共用）、將9.4（LUN）、您可以將Unified Manager管理的各個工作負載的傳統QoS升級至AQO。如需詳細資訊、請參閱</block>
-  <block id="aa5cf936cb4fb39ed1dee060575b0d06" category="inline-link">如何在叢集升級後、將Unified Manager管理的工作負載從傳統QoS升級至AQO</block>
-  <block id="78d4a83897b99415ac8ad5c120bda57f" category="paragraph"><block ref="78d4a83897b99415ac8ad5c120bda57f" category="inline-link-rx"></block></block>
   <block id="30774c46e559810eb26e025188823780" category="summary">修改儲存工作負載的方式包括更新LUN或檔案共用、但缺少參數、或是變更現有參數。</block>
   <block id="0ba58d9003b19504ad38c6a2543c518a" category="doc">修改儲存工作負載</block>
   <block id="e018190fc95075d0a3a80781bdaebacc" category="paragraph">此工作流程以更新LUN和檔案共用的效能服務層級為例。</block>
@@ -7890,7 +7879,6 @@
   <block id="1fd2b463bf2d975db21df998b30ccb30" category="list-text">作業系統：Red Hat Enterprise Linux 7.x版和8.x版或CentOS 7.x版（以x86_64架構為基礎）、安裝時使用作業系統安裝程式*軟體選擇*選項中的「Server with GUI」基礎環境</block>
   <block id="480c2974456cfdab733c75db7656f977" category="list-text">RAM：12 GB、CPU：總共9572 MHz</block>
   <block id="dd6993bbff983390c9accd8acbf1ed57" category="list-text">可用磁碟空間：100 GB的磁碟空間<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 目錄、根分割區中的50 GB。適用於個別安裝的<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> 和<block ref="72ab0dd25459f7bfe6f0f90e0af20861" prefix=" " category="inline-code"></block> 請確保<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> 有15 GB、<block ref="72ab0dd25459f7bfe6f0f90e0af20861" prefix=" " category="inline-code"></block> 具有16 GB、及<block ref="d42b9c57d24cf5db3bd8d332dc35437f" prefix=" " category="inline-code"></block> 有10 GB可用空間。</block>
-  <block id="45a9cb384aadcd627c1ec3e6b735c107" category="paragraph">如需詳細的系統需求、以及在安全站台安裝產品的相關資訊、請參閱 <block ref="670b6cec3e8bfe31f2fe710887cb5bd0" category="inline-link-macro-rx"></block> 和 <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
   <block id="9af7f6db16dadbd7d8fe0d5b1ea6031d" category="list-text">下載<block ref="12e8f7937693d1d817495a9f09c36f7e" prefix=" " category="inline-code"></block> 安裝套件及程式碼簽署憑證 <block ref="bdf46f9562b038d0163af0feba0b1dfa" prefix="(" category="inline-code"></block>）和數位簽章 <block ref="3328f02e81ee36344adceaeebdcfd4a4" prefix="(" category="inline-code"></block>）。</block>
   <block id="bb6790f4f8d82c3397bd5fda09daa3f7" category="list-text">在您下載安裝檔案的目錄中、執行：</block>
   <block id="29afb17b6fd794a230bca904d06a0015" category="paragraph"><block ref="2d7480c0e2f854da0cfecd6c5e2ca4bb" prefix="" category="inline-code"></block></block>
@@ -8032,7 +8020,6 @@
   <block id="c613afdd3b01593cb5bd9a4d62704464" category="list-text">您必須啟用Enterprise Linux（E規劃）的額外套件儲存庫、才能在系統上成功安裝所需的協力廠商公用程式。</block>
   <block id="14a09cefd70d155f53608a10c0075f89" category="paragraph">如果系統上未設定Epel儲存庫、您必須手動下載及設定儲存庫。</block>
   <block id="cf9cf11bad5d3f5d77b4012abbf218e4" category="inline-link-macro">手動設定Epel儲存庫</block>
-  <block id="d49c4ee7635bee24ddd03e23aa963c9c" category="paragraph"><block ref="d49c4ee7635bee24ddd03e23aa963c9c" category="inline-link-macro-rx"></block></block>
   <block id="dae5be77dcd5a2751c52abb8c0cc9026" category="list-text">如果未安裝正確版本的MySQL、您必須啟用MySQL儲存庫、才能在系統上成功安裝MySQL軟體。</block>
   <block id="9d4174201a3264f400c5be830729e691" category="paragraph">如果您的系統上未設定MySQL儲存庫、則必須手動下載及設定儲存庫。</block>
   <block id="0bf58a07f9c4162d16eb1d2a403f0d41" category="inline-xref-macro">手動設定MySQL儲存庫</block>
@@ -8483,8 +8470,6 @@
   <block id="12d49648274bb61cf34ecef5c6ec1acc" category="doc">使用Unified Manager REST API</block>
   <block id="056ccccdf94ecae8a5c8847b4ee5facf" category="paragraph">如需Unified Manager REST API的相關資訊、請參閱 <block ref="abc01d0b3cd0346cb85bca1d725dc979" category="inline-link-macro-rx"></block>。</block>
   <block id="93f88d6c3be8dc08239feb316ead84f9" category="paragraph">若要檢視您可以訂閱的EMS事件名稱、ONTAP 您可以從叢集Shell使用<block ref="600519f6c6d0b7df8b905133fe79eb47" prefix=" " category="inline-code"></block> 命令（ONTAP 在版本號不低於版本9之前）或<block ref="83c19f62b32dae15ee31be017a321335" prefix=" " category="inline-code"></block> 命令（ONTAP 更新版本、僅限功能更新版本）。如需識別個別EMS事件的詳細指示、請參閱知識庫答案1072320。</block>
-  <block id="b7ea02fe1dbdcd1a4d97e075ed656e5d" category="inline-link">KB 10722320 -如何在ONTAP Unified Manager中設定不含EsEMS的事件訂閱</block>
-  <block id="31217e322cc07a0593ddf09e0d4549b2" category="paragraph"><block ref="31217e322cc07a0593ddf09e0d4549b2" category="inline-link-rx"></block></block>
   <block id="dc1aaf8c08736de808959d661b2982d9" category="summary">「Performance（效能）/SVM Explorer（SVM資源管理器）」頁面提供叢集中所有儲存虛擬機器（SVMs）的詳細效能總覽。</block>
   <block id="96ae8904d957994459a2d0931e79c52a" category="doc">Storage VM/Performance Explorer頁面</block>
   <block id="91ef4002ac703475b2df528f48f4fb01" category="paragraph">「Performance（效能）/SVM Explorer（SVM資源管理器）」頁面提供叢集中所有儲存虛擬機器（SVM）的詳細效能總覽。</block>
@@ -8505,8 +8490,6 @@
   <block id="8bf16fa749903dd430c63d5f7b2bed5b" category="paragraph">Flash卡離線（ocumEvtFlashCards離線）</block>
   <block id="008dc4c7a8172caafb4a09a375139945" category="summary">根據RBAC設定、您可以從「使用者」頁面新增使用者、並指派適當的角色給這些使用者、以便存取及監控叢集。</block>
   <block id="72a2d6c56d0c11a33538a8a7ffca2ca5" category="doc">使用者存取視窗和對話方塊說明</block>
-  <block id="44fcc20d57d7a0f305afc033756027b0" category="inline-link">知識庫答案1087704</block>
-  <block id="d1aef3e682def1701a41348e49b69d86" category="paragraph">如果您發現遞增備份檔案的數量對於您已配置用於備份的空間而言太大、請參閱<block ref="482f88c4d1dd0b295f7aef84ae814882" category="inline-link-rx"></block> 以瞭解如何定期建立新的完整備份、以取代舊的完整備份及其所有子遞增檔案。</block>
   <block id="f7fdb981561bfd068c5d12767608ebc8" category="summary">使用者和群組配額事件可提供使用者和使用者群組配額容量的相關資訊、以及檔案和磁碟限制、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。</block>
   <block id="50067c41e9f1092e45320e5b167d9e46" category="doc">使用者和群組配額事件</block>
   <block id="6ba841d8b866e4450d6de35728cb1d0c" category="paragraph">違反使用者或群組配額磁碟空間軟限制（ocumEvtUserOrGroupQuotaDisk空間軟限制已達）</block>
@@ -9920,7 +9903,6 @@
   <block id="c84860a9f6e5104c0f3572c47211cc21" category="list-text">未監控</block>
   <block id="025365c894e964be403cb5bd88d14798" category="list-text">按一下VM旁的向下箭頭、即可查看整個運算、網路和儲存層元件拓撲的摘要檢視。出現延遲問題的節點會反白顯示。摘要檢視會顯示元件的最短延遲時間。例如、如果VM有多個虛擬磁碟、此檢視會顯示所有虛擬磁碟之間延遲最短的虛擬磁碟。</block>
   <block id="b2852f4b6790249b1afa31156c609cca" category="list-text">若要分析資料存放區一段時間內的延遲和處理量、請按一下資料存放區物件圖示頂端的*工作負載分析器*按鈕。您可以前往「工作負載分析」頁面、選取時間範圍並檢視資料存放區的效能圖表。如需工作負載分析器的詳細資訊、請參閱_使用工作負載分析器疑難排解工作負載_。</block>
-  <block id="678e3b6c8d79dadf59a1b550827b001a" category="paragraph"><block ref="678e3b6c8d79dadf59a1b550827b001a" category="inline-link-macro-rx"></block></block>
   <block id="c64cdbe5b3e71277fb72683ca1126415" category="section-title">檢視擴充拓撲</block>
   <block id="0cb243721275242d43e08ae33d6bbcb5" category="paragraph">您可以檢視VM的擴充拓撲、分別深入各個元件。</block>
   <block id="208418858150638b18e724bc3b4cb874" category="list-text">在摘要拓撲檢視中、按一下*展開拓撲*。您可以分別查看每個元件的詳細拓撲、以及每個物件的延遲數。如果類別中有多個節點（例如資料存放區或VMDK中有多個節點）、則延遲時間最短的節點會以紅色強調顯示。</block>
@@ -11126,7 +11108,6 @@
   <block id="7b2ca92a0e10c48d7631c9609a6d7067" category="paragraph">當您將游標停留在圖表上時、延遲和活動圖表會顯示最重要的工作負載名稱。按一下圖表右側的工作負載類型功能表、即可根據工作負載在事件中的角色（包括_Sharks _、_bulies _或_als受害者_）來排序工作負載、並顯示其延遲及其在爭用叢集元件上使用的詳細資料。您可以比較實際值與預期值、查看工作負載何時超出預期的延遲或使用範圍。請參閱 <block ref="9f2938dff180af01fa93d55b4de76b26" category="inline-xref-macro-rx"></block>。</block>
   <block id="db69501da9f35d5723a50c4a668d5bb1" category="paragraph">當您依延遲尖峰差異排序時、系統定義的工作負載不會顯示在表格中、因為延遲僅適用於使用者定義的工作負載。低延遲值的工作負載不會顯示在表格中。</block>
   <block id="e5ee071b3b431489cbbdfadb0adb789c" category="inline-link-macro">什麼是事件</block>
-  <block id="9cd94be50f953ca5b3d67273e067ae6c" category="paragraph">如需動態效能臨界值的詳細資訊、請參閱 <block ref="0535bb9dbc4ba4c8dec14b625dcb4a64" category="inline-link-macro-rx"></block>。如需Unified Manager如何排列工作負載及決定排序順序的相關資訊、請參閱 <block ref="588858b1cc06423e48caf8172f8d9578" category="inline-xref-macro-rx"></block>。</block>
   <block id="7427acf420f5207b8ae1131352d073c7" category="paragraph">圖表中的資料會顯示上次分析事件之前24小時的效能統計資料。每個工作負載的實際值和預期值取決於事件涉及的工作負載時間。例如、工作負載可能會在偵測到事件後介入事件、因此其效能統計資料可能與事件偵測時的值不符。根據預設、工作負載會依延遲的尖峰（最高）偏移進行排序。</block>
   <block id="2545bfbff2b57fe22210b418aa7b0bde" category="paragraph">由於Unified Manager最多可保留30天5分鐘的歷史效能和事件資料、因此如果事件超過30天、就不會顯示效能資料。</block>
   <block id="a1fb5903985467b316b77afec2a094fa" category="list-text">*工作負載排序欄*</block>
@@ -11134,7 +11115,6 @@
   <block id="ad66c9e4c4aac43f31d0399bd4bda649" category="paragraph">顯示上次分析期間事件對工作負載延遲的影響。</block>
   <block id="733e7290b02f4bcfc4024e1c7717761e" category="list-text">*元件使用率欄*</block>
   <block id="b0a053673931b228f989352c64b39510" category="inline-link-macro">工作負載效能測量</block>
-  <block id="7217fed83eafaf5cd5c315f3fae6bdc0" category="paragraph">顯示爭用叢集元件之工作負載使用量的詳細資料。在圖表中、實際使用量是一條藍線。紅色長條會強調事件持續時間、從偵測時間到上次分析時間。如需詳細資訊、請參閱 <block ref="441c1f0640ee23e8a572ef20ebbdc844" category="inline-link-macro-rx"></block>。</block>
   <block id="6b3abe7014911eaecd1bb9f29044ebe9" category="paragraph">對於網路元件、由於網路效能統計資料來自叢集之外的活動、因此不會顯示此欄。</block>
   <block id="c1488620d5b7412ffad628b521ecbba0" category="list-text">*元件使用率*</block>
   <block id="63c1fe7ae0c47abf05be33ca259c4db4" category="paragraph">以百分比顯示QoS原則群組元件的網路處理、資料處理和集合體元件使用率歷程記錄、或是活動歷程記錄（以百分比表示）。不會顯示網路或互連元件的圖表。您可以指向統計資料、以在特定時間點檢視使用統計資料。</block>
@@ -11603,7 +11583,6 @@
   <block id="218fd42c69de99639a37d9448b9acdf3" category="paragraph">下列部分面板可能不會根據您的組態出現在頁面上。</block>
   <block id="7159b8d16e082bb281a900b08b5b3c53" category="list-text">*管理行動面板*</block>
   <block id="5c30d4e8e903f03c3436b4550c821396" category="paragraph">Unified Manager可能會徹底診斷並提供單一解決方案、如果可用、這些解析度會以*「修正」按鈕顯示在此面板中。您可以從Unified Manager立即修正這些問題、而不需要使用ONTAP 功能介紹系統管理程式或ONTAP 功能介紹CLI。</block>
-  <block id="44da280fca517a69ac2e7a77046f5abe" category="paragraph">請參閱 <block ref="28b6b8afce069695e6ee578108372193" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
   <block id="fefbd613edf4fa6e465728bd4899ff3c" category="list-text">*容量面板*</block>
   <block id="7e39569cdb06b9244de42ec3bf906a0c" category="paragraph">檢視所有叢集時、此面板會顯示每個叢集的實體總容量和已使用的邏輯容量、磁碟預計已滿的天數、以及根據設定ONTAP 的還原儲存效率設定而定的資料減量比率。也會列出任何已設定雲端層的已用容量。按一下長條圖、即可前往該叢集的Aggregate詳細目錄頁面。按一下「顯示為完整天數」文字會顯示訊息、指出剩餘容量天數最少的集合體；按一下集合體名稱即可查看更多詳細資料。</block>
   <block id="e3a465be6f734d81ff88e9bfbe1895e1" category="paragraph">檢視單一叢集時、此面板會根據本機層和雲端層上的每個個別磁碟類型、顯示資料集合體的實體容量和邏輯使用容量總計。按一下磁碟類型的長條圖、即可前往使用該磁碟類型之磁碟區的「Volumes」（磁碟區）詳細目錄頁面。</block>
@@ -12424,7 +12403,6 @@
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">執行組態和管理工作</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">產生自訂報告</block>
   <block id="5fc23f7e4ef2f5b01f7034e6f2ceb340" category="sidebar">在VMware vSphere系統上安裝Unified Manager</block>
-  <block id="13bd7c1485a8096980a7a59aa3af154f" category="sidebar">產品文件Active IQ Unified Manager</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">監控及管理叢集健全狀況</block>
   <block id="0cdc2e43fd617d44b61e3c28d05ef9e7" category="sidebar">管理健全狀況臨界值（叢集健全狀況）</block>
   <block id="a4d86585f88de3caa783eefc33f81448" category="sidebar">設定全域健全狀況臨界值設定（叢集健全狀況）</block>
@@ -12476,5 +12454,21 @@
   <block id="5fdeb821d7d24c5498fe42bdf6a8e55d" category="sidebar">當我看到 <strong>「修正」</strong> 按鈕時、我有什麼選項</block>
   <block id="19966a54541b838c85278932c36c8122" category="sidebar">變更Unified Manager主機名稱（管理及監控）</block>
   <block id="433a3de67ad10a966d2b8b61c37210d2" category="sidebar">將磁碟空間新增至Unified Manager資料庫目錄（管理及監控）</block>
-  <block id="6ab85e747e0c76cd7c95b5eb2dd03018" category="sidebar">如何傳送有關文件的意見並接收更新通知</block>
+  <block id="9445df612c310acacfd941dd0eac8823" category="paragraph">如需詳細的系統需求、請參閱 <block ref="a6cf2d64b945a6e5bc413fbb8bde8342" category="inline-link-macro-rx"></block> 和 <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
+  <block id="5fca475c024edff744644a825e3d9a88" category="paragraph">若要安裝Unified Manager、請確定您已安裝Microsoft .NET 4.5.2或更新版本。在安裝程序中、Unified Manager會視需要安裝其他協力廠商套件。如需相依軟體套件的詳細資訊、請參閱 <block ref="fdccd14fe3a6b01226e28b1c8d5903a3" category="inline-link-macro-rx"></block>。</block>
+  <block id="386e01dc058ac49b633d3ab1bdadb2be" category="paragraph"><block ref="386e01dc058ac49b633d3ab1bdadb2be" category="inline-link-macro-rx"></block></block>
+  <block id="78b6e4ed950dc395bd3f6faeee305a34" category="paragraph">如需動態效能臨界值的詳細資訊、請參閱 <block ref="4fbbcfc459c3f0a70cb75c69ab9e6f9c" category="inline-link-macro-rx"></block>。如需Unified Manager如何排列工作負載及決定排序順序的相關資訊、請參閱 <block ref="588858b1cc06423e48caf8172f8d9578" category="inline-xref-macro-rx"></block>。</block>
+  <block id="76d5b0d54d461c3c8448cabff04a2e43" category="paragraph">顯示爭用叢集元件之工作負載使用量的詳細資料。在圖表中、實際使用量是一條藍線。紅色長條會強調事件持續時間、從偵測時間到上次分析時間。如需詳細資訊、請參閱 <block ref="25a23eaa5e8a555010bba03b1514776e" category="inline-link-macro-rx"></block>。</block>
+  <block id="1acf808d5167e8d3738f46ff5b4e301e" category="inline-link">如何設定ONTAP 及接收Active IQ Unified Manager 來自於《關於在本》中訂閱的《關於EEMS事件的警示》</block>
+  <block id="9766ce0b025b0e53ab341f929c8809c9" category="paragraph"><block ref="9766ce0b025b0e53ab341f929c8809c9" category="inline-link-rx"></block></block>
+  <block id="f772a3f7d605caa5bd70b36946fa44ba" category="paragraph">請參閱 <block ref="d6b5a2a5c0e40c3102c9b2e22cb0b3c7" category="inline-link-macro-rx"></block> 以取得此處顯示之叢集元件的說明。</block>
+  <block id="c24aa7241469829aa1f0aa125be72ed7" category="paragraph">請參閱 <block ref="d6b5a2a5c0e40c3102c9b2e22cb0b3c7" category="inline-link-macro-rx"></block> 以取得此處顯示之元件的說明。</block>
+  <block id="24f0bc4370d5b3d0cc51dca9f18dd3cf" category="paragraph">如果您發現遞增備份檔案的數量對於分配給備份的空間而言過大、您可以定期建立新的完整備份、以取代舊的完整備份及其所有子遞增檔案。</block>
+  <block id="94b9b9bf336f6150715e70e5cfa796db" category="paragraph">請參閱 <block ref="9e8206a26caab6e01b9c259e68be62a2" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
+  <block id="26b4fa3b049aebc28e928ab0f5301a79" category="paragraph">如果將ONTAP 您的支援叢集從9.1升級至9.3（檔案共用）、將9.4（LUN）、您可以將Unified Manager管理的各個工作負載的傳統QoS升級至AQO。</block>
+  <block id="021459db8c0de937bd166d39a346138c" category="paragraph"><block ref="021459db8c0de937bd166d39a346138c" category="inline-link-macro-rx"></block></block>
+  <block id="64b2c0c968fd7233752d70038ec0414f" category="paragraph">如需詳細的系統需求、以及在安全站台安裝產品的相關資訊、請參閱 <block ref="a6cf2d64b945a6e5bc413fbb8bde8342" category="inline-link-macro-rx"></block> 和 <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
+  <block id="104aa31777a28083b01bd42d1604f40d" category="list-text">檢閱「原因」欄位中的錯誤訊息、然後按一下「建議的補救行動」下方的建議、以檢閱可能的修正說明。 <block ref="cfa97ecee8a019da26e072cfc32b4d01" category="inline-link-macro-rx"></block></block>
+  <block id="61e9505d43407b696822b3696a0f6e18" category="list-text"><block ref="61e9505d43407b696822b3696a0f6e18" category="inline-link-macro-rx"></block></block>
+  <block id="1a97fa8225fab34ca587c5011859bf8a" category="list-text"><block ref="4e38818523eff37839ae6350cd7b53b0" category="inline-link-macro-rx"></block>。</block>
 </blocks>

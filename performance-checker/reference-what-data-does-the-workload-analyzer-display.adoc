@@ -43,7 +43,7 @@ LUN的工作負載圖表所提供的統計資料層級與磁碟區的圖表不�
 +
 ** *延遲*顯示工作負載的延遲。此圖表有三種檢視、可讓您查看總延遲、讀取、寫入及其他程序所造成的延遲、以及依叢集元件所劃分的延遲。
 +
-請參閱 link:concept-cluster-components-and-why-they-can-be-in-contention.adoc["叢集元件及其爭用的原因"] 以取得此處顯示之叢集元件的說明。
+請參閱 link:concept-cluster-components-and-why-they-can-be-in-contention.html["叢集元件及其爭用的原因"] 以取得此處顯示之叢集元件的說明。
 
 ** *處理量*顯示工作負載的IOPS和MB/s處理量。此圖表有兩種檢視、可讓您查看總處理量、以及依讀取、寫入和其他程序劃分的處理量。
 +

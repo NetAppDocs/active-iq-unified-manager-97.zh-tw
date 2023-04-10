@@ -42,7 +42,7 @@ Unified Manager只會在儲存工作負載上開始執行I/O作業之後、才�
 
 此頁面也可讓您檢視工作負載的效能詳細資料。您可以按一下「*選擇/訂單欄*」按鈕、然後選取要檢視的特定欄、以檢視工作負載的IOPS、容量和延遲等詳細資訊。「效能檢視」欄會顯示工作負載的平均和尖峰IOPS、您可以按一下工作負載分析器圖示來檢視詳細的IOPS分析。「IOPS分析」快顯視窗上的「分析工作負載*」按鈕會帶您前往「工作負載分析」頁面、您可在其中選取時間範圍、並檢視所選工作負載的延遲、處理量和容量趨勢。如需工作負載分析器的詳細資訊、請參閱_使用工作負載分析器疑難排解工作負載_
 
-link:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc["使用工作負載分析器疑難排解工作負載"]
+link:concept-troubleshooting-workloads-using-the-workload-analyzer.html["使用工作負載分析器疑難排解工作負載"]
 
 
 

@@ -27,7 +27,7 @@ summary: 「儀表板」頁面有「面板」、顯示您所監控叢集的高�
 Unified Manager可能會徹底診斷並提供單一解決方案、如果可用、這些解析度會以*「修正」按鈕顯示在此面板中。您可以從Unified Manager立即修正這些問題、而不需要使用ONTAP 功能介紹系統管理程式或ONTAP 功能介紹CLI。
 
 +
-請參閱 link:concept-fixing-ontap-issues-directly-from-unified-manager.adoc["直接從ONTAP Unified Manager修正各種問題"] 以取得更多資訊。
+請參閱 link:concept-fixing-ontap-issues-directly-from-unified-manager.html["直接從ONTAP Unified Manager修正各種問題"] 以取得更多資訊。
 
 * *容量面板*
 +
