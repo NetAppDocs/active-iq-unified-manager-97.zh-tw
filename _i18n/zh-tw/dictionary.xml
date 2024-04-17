@@ -12447,4 +12447,35 @@
   <block id="5c54cb8f927a6c5a90622e1c7bd0bda5" category="paragraph">NTP</block>
   <block id="4a8598febd97e32d0698051cd71f02fa" category="paragraph">123/UDP</block>
   <block id="cb2a1ba65000d6677f2856e06530ac31" category="paragraph">用於同步Unified Manager伺服器與外部NTP時間伺服器上的時間。（僅限VMware系統）</block>
+  <block id="f35b15966925f799d1c13674cc8bff50" category="sidebar">Active IQ Unified Manager （ Unified Manager 、前身為 OnCommand Unified Manager ）可讓您從單一介面監控及管理 ONTAP 儲存系統的健全狀況與效能。此文件庫包含 9.7 版的資訊。</block>
+  <block id="828adfb3faf6bb0d6a86602f92d97f36" category="sidebar">安裝及設定 Unified Manager</block>
+  <block id="e53d36a21edd215027333eb7ea60fbc1" category="sidebar">在 VMware vSphere 系統上安裝與升級</block>
+  <block id="e16bdcc955b9441255836a75b797d710" category="sidebar">在 Linux 系統上安裝與升級</block>
+  <block id="5088a593884b9f5b6d52f0765c1c1554" category="sidebar">在 Windows 系統上安裝與升級</block>
+  <block id="40a3a0e70dc43e9efc5b6e90644739dd" category="sidebar">設定Unified Manager</block>
+  <block id="d8be01b779b72fb7ad353d45426e7fe3" category="sidebar">效能監控</block>
+  <block id="eb7e776ba84f97e32ca2522829847d83" category="sidebar">效能臨界值</block>
+  <block id="e4b3ba4cc2976d5d2c21b446db787620" category="sidebar">叢集效能</block>
+  <block id="13b1a36194bc49ac73c5077e1c1f6dd7" category="sidebar">QoS原則群組</block>
+  <block id="22282f824617dbbebc3002bf291c3117" category="sidebar">工作負載分析器</block>
+  <block id="2628e4e79f85236ae4cc4df30ef76dac" category="sidebar">工作負載效能</block>
+  <block id="32c3f8877c5ea716e98d2b29e543f128" category="sidebar">管理效能</block>
+  <block id="8af3b43a5a64432d35c94880633df02f" category="sidebar">儲存與物件健全狀況監控</block>
+  <block id="138596885ef6a770335b0f958ce9d084" category="sidebar">叢集與叢集物件健全狀況</block>
+  <block id="90d18dd78a87b153d16c1819d4028f7c" category="sidebar">健全狀況臨界值</block>
+  <block id="c1a5720865a9f4d704047c6a3994bba0" category="sidebar">傳送AutoSupport 不支援的訊息和套裝組合</block>
+  <block id="9c8007a675a79a50e15e5f8b518142de" category="sidebar">資料保護監控</block>
+  <block id="bf54949621b6403edf2732fa98614df6" category="sidebar">設定保護關係</block>
+  <block id="70979e8a3c0bd0556d9e0f41562315a3" category="sidebar">執行容錯移轉和容錯回復</block>
+  <block id="98e89001f140ad515c45156a86a785b0" category="sidebar">管理保護關係</block>
+  <block id="7ecd0726b721e17d74d280fdd93e49f8" category="sidebar">產生報告</block>
+  <block id="13f1397303dbc6596a7d0adff2836250" category="sidebar">使用REST API</block>
+  <block id="07b466d1e52283f35dd449a812baad89" category="sidebar">管理儲存物件</block>
+  <block id="473d694016cdd75be9080ed64f378b47" category="sidebar">存取ONTAP 功能完善的API</block>
+  <block id="aec64acbfb236d7941c71888ca0e34d4" category="sidebar">一般工作流程</block>
+  <block id="032bb3c77a75d4bae0f58801b4d5326a" category="sidebar">配置儲存設備</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多資源</block>
+  <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager影片</block>
+  <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager部落格</block>
+  <block id="c0fd3a67a0f9d526734eae8cf8142cb4" category="sidebar">最新版Active IQ Unified Manager 的支援文件</block>
 </blocks>
