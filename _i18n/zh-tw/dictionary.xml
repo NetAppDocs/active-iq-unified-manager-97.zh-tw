@@ -2604,7 +2604,6 @@
   <block id="67d49e16538979c413ddeb36f029388c" category="list-text">您可以變更*排程名稱*、*收件者*清單、*頻率*、*日*（每週）、*時間*、以及*格式*的報告排程。</block>
   <block id="3c089aca469ff81256c133ec51b447ce" category="list-text">完成後、按一下核取標記以儲存變更。</block>
   <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">適用於《The》、《AIQUM》文件、《UM》文件的文件Active IQ Unified Manager</block>
-  <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">資訊文件Active IQ Unified Manager</block>
   <block id="c33d5314a6e7b078bf9d71b8e0c1ea51" category="summary">若要存取Unified Manager UI、您必須使用支援的瀏覽器。</block>
   <block id="6d84e3718084e0db779da4ff8791a2f2" category="doc">支援的瀏覽器</block>
   <block id="db5dfad2e62d29ace046414904d6d365" category="paragraph">如需支援的瀏覽器版本清單、請參閱互通性對照表。</block>
@@ -12478,4 +12477,5 @@
   <block id="ec41073735b02d172b0bc1ee60ea5ec9" category="paragraph"><block ref="ec41073735b02d172b0bc1ee60ea5ec9" category="inline-link-rx"></block></block>
   <block id="20bde173581d26c0c8c8f826587fe6b1" category="paragraph">檢視所有叢集時、此面板會顯示符合或不相容的叢集數目、符合或不符合法規的SVM數目、以及加密或未加密的磁碟區數目。法規遵循以<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>為基礎。按一下面板頂端的向右箭頭、即可檢視「安全性」頁面中所有叢集的安全性詳細資料。</block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
+  <block id="dd5452c4b1a9b73792ee149d9b8c4bd0" category="sidebar">Active IQ Unified Manager 9.7 文件</block>
 </blocks>

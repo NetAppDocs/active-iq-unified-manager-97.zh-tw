@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.7
+  name: Active IQ Unified Manager
   downlevel: true
   internal:
     pdf_enabled: true
